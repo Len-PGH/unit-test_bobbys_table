@@ -33,4 +33,13 @@ chmod +x run_tests.sh
 ## Test Output
 
 - Test results: custom_test_report.html
-- Log file: 	est_run.log
+- Log file: 	est_run.log
+
+## Project Structure
+
+- pp_new.py - Main application file
+- swaig.py - SWAIG integration
+- swaig_handler.py - SWAIG request handler
+- eservation_system.py - Core reservation system
+- 	ests/ - Test files
+- 	emplates/ - HTML templates
