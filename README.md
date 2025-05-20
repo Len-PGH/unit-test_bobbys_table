@@ -42,6 +42,6 @@ chmod +x run_tests.sh
 - swaig.py - SWAIG integration
 - swaig_handler.py - SWAIG request handler
 - 
-eservation_system.py - Core reservation system
-- 	ests/ - Test files
-- 	emplates/ - HTML templates
+reservation_system.py - Core reservation system
+- 	tests/ - Test files
+- 	templates/ - HTML templates
