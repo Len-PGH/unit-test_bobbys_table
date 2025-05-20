@@ -6,16 +6,16 @@ This is an isolated test environment for the SignalWire Reservation System.
 
 1. Navigate to this directory
 2. Create a virtual environment:
-   `ash
+   ```ash
    python -m venv venv
-   `
+   ```
 3. Activate the virtual environment:
    - Windows: .\venv\Scripts\activate
    - Linux/macOS: source venv/bin/activate
 4. Install requirements:
-   `ash
+   ```ash
    pip install -r requirements.txt
-   `
+   ```
 
 ## Running Tests
 
@@ -25,10 +25,11 @@ This is an isolated test environment for the SignalWire Reservation System.
 `
 
 ### Linux/macOS
-`ash
+
+```
 chmod +x run_tests.sh
 ./run_tests.sh
-`
+```
 
 ## Test Output
 
@@ -40,6 +41,7 @@ chmod +x run_tests.sh
 - pp_new.py - Main application file
 - swaig.py - SWAIG integration
 - swaig_handler.py - SWAIG request handler
-- eservation_system.py - Core reservation system
+- 
+eservation_system.py - Core reservation system
 - 	ests/ - Test files
 - 	emplates/ - HTML templates
