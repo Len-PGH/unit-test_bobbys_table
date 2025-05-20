@@ -1,0 +1,85 @@
+# Environment variables and secrets
+.env
+*.env
+.env.*
+env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Test outputs and reports
+test_run.log
+test_report.html
+custom_test_report.html
+pytest_report.html
+pytest_swaig_report.html
+.pytest_cache/
+.coverage
+htmlcov/
+test_output.txt
+
+# IDE specific files
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Local development
+*.db
+*.sqlite3
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+swaig_debug_payload.json
+
+# Old/duplicate files
+app.py
+test_app_endpoints.py
+run.sh
+
+# Documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Build and deployment
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dylib
+*.dll 

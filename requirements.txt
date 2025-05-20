@@ -1,0 +1,9 @@
+flask>=2.0.0
+Flask_HTTPAuth
+python-dotenv>=0.19.0
+signalwire-swaig>=1.0.0
+newrelic>=8.0.0
+gunicorn>=20.1.0
+beautifulsoup4>=4.12.0
+pytest>=8.0.0
+pytest-html>=4.1.1
