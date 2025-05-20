@@ -38,7 +38,7 @@ chmod +x run_tests.sh
 
 ## Project Structure
 
-- pp_new.py - Main application file
+- app_new.py - Main application file
 - swaig.py - SWAIG integration
 - swaig_handler.py - SWAIG request handler
 - 
